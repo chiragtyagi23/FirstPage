@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary-text-color: black;
+    --secondry-text-color: white;
+    --font-weight: 800;
+    --font-size: larger;
+}
+
+.banner-section{
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: 300px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    font-weight: 800;
+}
+h2{
+    color: var(--primary-text-color);
+font-size: 2rem;
+}
+
+p{
+    font-size: 1.25rem;
+    color: var(--primary-text-color);
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+
+.container1{
+    max-width: 1180px;
+    margin-inline: 30px;
+    padding-inline: 30px;
+}
+
+.container1 div{
+    color: white !important;
+    text-align: end;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 5px black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.container li{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.container li a{
+    color: black;
+    padding-inline: 30px;
+    
+}
+
+.hover:hover{
+    color: brown;
+    transition: .2s ease-out;
+    
+}
+
+.primarybutton:hover{
+    border: 2px solid brown;
+    transition: .5s ease-out;
+}
+
+.primarybutton{
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 3px black;
+    margin-right: 30px;
+    
+    
+}
+
+.secondarybutton{
+    background-color: skyblue;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+header{
+    padding: 50px 5px;
+}
+
+.right img{
+    width: 500px;
+    margin-top: 30px;
+}
+
+.left{
+    padding: 50px;
+    margin: 50px;
+}
+
+.neecha{
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.text{
+    text-align: center;
+     font-size: large;
+     font-weight: 500;
+    color: black !important;
+    margin-bottom: 40px;
+}
+
+.images img{
+    width:100px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.images1 img{
+    height: 300px;
+    width: 300px;
+
+}
+
+.text1{
+    margin: 40px 20px;
+    padding: 30px;
+    text-align: center;
+}
+.primarybutton1{
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 3px black;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.primarybutton1:hover{
+    border: 2px solid brown;
+    transition: .5s ease-out;
+}
+
+.flexy{
+    display: flex;
+    align-items: center;
+    
+}
+
+.images1{
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+}
+
+.features-card p{
+    text-align: center;
+}
+
+.features{
+    padding: 80px 40px;
+
+}
+.thallo img{
+    height: 450px;
+    width: 400px;
+    margin-right: 80px;
+    margin-left: 100px;
+}
+
+.left-dabba{
+    text-align: center;
+    margin: 80px;
+    padding: 50px;
+}
+
+.examples{
+    margin: 90px;
+}
+
+.examples-card{
+    width: 23%;
+    min-height: 300px;
+    position: relative;
+    background: black;
+    background:linear-gradient( rgb( 0, 0, 0, 0.1),rgb( 0, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1695653423053-64e76a128f1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+    background-size: cover;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    right: 20px;
+    color: white;
+}
+
+.flexy2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flexy3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.cda{
+    background-color: rgb(115, 115, 115);
+    
+    
+}
+
+.footer{
+    background-color: aliceblue;
+}
+.cda-section{
+    margin-top: 100px;
+    padding: 90px;
+}
+
+.footer-sec a img{
+    width: 100px;
+    height: 100px;
+}
+
+.company{
+    padding: 90px;
+    font-size: larger;
+    font-weight: 600;
+    color: black;
+}
+
+.sub-footer{
+    background-color: rgb(176, 121, 227);
+    padding: 30px;
+}
+
+.khatam{
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+
+
+
+
